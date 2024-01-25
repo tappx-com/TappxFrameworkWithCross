@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TappxFrameworkWithCross"
-  spec.version      = "4.0.9"
+  spec.version      = "4.0.10"
   spec.summary      = "Tappx SDK for iOS monetization (This is the SDK with GoogleMobileAds)."
   
   spec.description  = <<-DESC
@@ -54,7 +54,7 @@ Pod::Spec.new do |spec|
     ss.platform = :ios
     ss.ios.deployment_target  = '11.0'
     ss.dependency "TappxFrameworkWithCross/OMSDK_Tappx"
-    ss.dependency "Google-Mobile-Ads-SDK", "~> 10.1.0"
+    ss.dependency "Google-Mobile-Ads-SDK", "~> 10.14.0"
     ss.xcconfig = { 
       "OTHER_LDFLAGS" => "-ObjC"
     }
